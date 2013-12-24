@@ -3,6 +3,6 @@
   "description": "Livestamp.js, a simple, unobtrusive jQuery plugin that provides auto-updating timeago text to your timestamped HTML elements using Moment.js, packaged for Meteor. See http://mattbradley.github.io/livestampjs/",
   "homepage": "https://github.com/colllin/meteor-livestamp",
   "author": "Colllin <collindo@gmail.com>",
-  "version": "1.1.2",
+  "version": "1.1.2.1",
   "git": "https://github.com/colllin/meteor-livestamp.git"
 }
