@@ -1,5 +1,5 @@
 Package.describe({
-  summary: "Livestamp.js, a simple, unobtrusive jQuery plugin that provides auto-updating timeago text to your timestamped HTML elements using Moment.js. See http://mattbradley.github.io/livestampjs/"
+  summary: "Livestamp.js, a simple, unobtrusive jQuery plugin that provides auto-updating timeago text to your timestamped HTML elements using Moment.js, packaged for Meteor. See http://mattbradley.github.io/livestampjs/"
 });
 
 Package.on_use(function (api, where) {
