@@ -3,10 +3,10 @@ Package.describe({
 });
 
 Package.on_use(function (api, where) {
-  if(api.export) {
-    api.export('livestamp');
-  }
-  where = where || ['client'];
-  api.add_files('lib/livestamp/livestamp.js', where);
-  api.add_files('export-livestamp.js', where);
+  api.use('moment', 'client');
+  
+  api.export && api.export('livestamp');
+  
+  api.add_files('lib/livestamp/livestamp.js', 'client');
+  api.add_files('export-livestamp.js', 'client');
 });
