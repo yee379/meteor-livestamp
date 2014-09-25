@@ -1,12 +1,18 @@
 Package.describe({
-  summary: "Livestamp.js, a simple, unobtrusive jQuery plugin that provides auto-updating timeago text to your timestamped HTML elements using Moment.js, packaged for Meteor. See http://mattbradley.github.io/livestampjs/"
+  name:"colllin:livestamp",
+  summary: "Livestamp.js, a simple, unobtrusive jQuery plugin that provides auto-updating timeago text to your timestamped HTML elements using Moment.js, packaged for Meteor. See http://mattbradley.github.io/livestampjs/",
+  version: "1.1.2",
+  git: "https://github.com/colllin/meteor-livestamp.git"
 });
 
-Package.on_use(function (api, where) {
-  api.use('moment', 'client');
-  
-  api.export && api.export('livestamp');
-  
-  api.add_files('lib/livestamp/livestamp.js', 'client');
-  api.add_files('export-livestamp.js', 'client');
+
+Package.onUse(function (api, where) {
+  api.versionsFrom("METEOR@0.9.0");
+
+  api.use('mrt:moment@2.8.1', 'client');
+
+  api.export('livestamp');
+
+  api.addFiles('lib/livestamp/livestamp.js', 'client');
+  api.addFiles('export-livestamp.js', 'client');
 });
