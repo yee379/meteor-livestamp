@@ -8,7 +8,7 @@ elements using [Moment.js](http://momentjs.com/), packaged for Meteor.
 Installation
 -------------
 
-`meteor add colllin:livestamp`
+`meteor add copleykj:livestamp`
 
 
 Usage
