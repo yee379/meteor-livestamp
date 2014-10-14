@@ -1,6 +1,6 @@
 Package.describe({
   name:"copleykj:livestamp",
-  summary: "Livestamp.js, a simple, unobtrusive jQuery plugin that provides auto-updating timeago text to your timestamped HTML elements using Moment.js, packaged for Meteor. See http://mattbradley.github.io/livestampjs/",
+  summary: "jQuery plugin providing auto-updating timeago text to your timestamped HTML elements using Moment.js",
   version: "1.1.2",
   git: "https://github.com/colllin/meteor-livestamp.git"
 });
