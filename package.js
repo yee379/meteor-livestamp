@@ -1,8 +1,8 @@
 Package.describe({
   name:"copleykj:livestamp",
   summary: "jQuery plugin providing auto-updating timeago text to your timestamped HTML elements using Moment.js",
-  version: "1.1.2",
-  git: "https://github.com/colllin/meteor-livestamp.git"
+  version: "1.1.2-1",
+  git: "https://github.com/copleykj/meteor-livestamp.git"
 });
 
 
