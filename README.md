@@ -13,6 +13,14 @@ Installation
 
 Usage
 -------------
-Just as the [Livestamp docs](http://mattbradley.github.io/livestampjs/) tell you:
+A template helper is included to compensate for the initial delay when using livestamp alone.
 
-`<span data-livestamp="2013-12-24T08:14:42.345Z"></span>`
+```html
+<p>{{livestamp date}}</p>
+```
+
+You can also use plain html with the data-livestamp attribute as per livestamp documentation.
+
+```html
+<span data-livestamp="2013-12-24T08:14:42.345Z"></span>
+```
