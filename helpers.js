@@ -6,6 +6,9 @@ Template.registerHelper('livestamp', function(date) {
 
   if (_.isDate(date)){
     timestamp = date.toISOString();
+  } else if (_.isNumber(date)){
+    timestamp = new Date(0);
+    timestamp.setUTCSeconds(date);
   } else if (_.isString(date)){
     timestamp = date;
   } else {
